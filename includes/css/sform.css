@@ -1,0 +1,81 @@
+.newsletter-block a.btn-default.my-btn .btn-text {
+	padding-left: 43px;
+	padding-right: 43px;
+}
+
+.newsletter-block #newsletter {
+	width: 588px;
+	position: relative;
+	display: block;
+	margin-top: 34px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.newsletter-block #newsletter input {
+	border: 0px;
+	background: #FFF;
+	color: #c8c8c8;
+	font-size: 18px;
+	line-height: 24px;
+	padding: 17px 19px 17px 29px;
+	width: 378px;
+	outline: none;
+	box-shadow: none;
+	margin-right: 16px;
+	float: left;
+	font-weight: 300;
+	border: 1px solid #f6ebe5;
+	text-transform: uppercase;
+}
+.newsletter-block #newsletter fieldset{
+	display: inline-block;
+}
+.newsletter-block #newsletter label {
+	position: relative;
+	display: inline-block;
+	min-height: 30px;
+	margin: 0px;
+	float: left;
+}
+
+.newsletter-block #newsletter label.invalid .error {
+	/*display: block;*/
+	
+	height: auto;
+}
+
+.newsletter-block #newsletter .error {
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	height: 0px;
+	font-size: 9px;
+	color: #F00;
+	margin: 5px 22px;
+	right: 18px;
+	top: 5px;
+	text-align: left;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.newsletter-block #newsletter .success {
+	display: none;
+	padding: 16px 19px 18px 29px;
+	width: 100%;
+	height: 100%;
+	background: #3498db;
+	color: #fff;
+	position: absolute;
+	z-index: 10;
+	margin: auto;
+	right: 0;
+	left: 0px;
+	top: 0px;
+	font-size: 12px;
+}
